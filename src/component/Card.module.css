@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(7, 12, 28, 0.916);
+    margin: 15px 0px;
+    width: 160px;
+}
+.image{
+    width: 100%;
+    height: 240px;
+}
+.content{
+margin: 0px 10px;
+width: 90%;
+}
+.movietitle{
+    display: none;
+    position: absolute;
+font-size: 10px;
+color: white;
+font-family: Verdana, sans-serif;
+}
+.card:hover .movietitle{
+    display: block;
+}
